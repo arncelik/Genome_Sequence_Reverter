@@ -22,17 +22,17 @@ A web software project, which will be developed with following capabilities:
 *Team Name: Slytherin House
 *Team Leader: Everyone
 
-1. Member1: Suhrab Kurbanov
+1. Member: Suhrab Kurbanov
  * Role: Initial Template of the website., Develop Reverse-Complement, Complement, Reverse algorithms and apply within the initial webpage.
 
-2. Member2: Serigne Ousmane Kana Ciss
+2. Member: Serigne Ousmane Kana Ciss
  * Role:
 
-3. Member3: Rumeysa Celik
+3. Member: Rumeysa Celik
  * Role:
 
-4. Member4: Jikhangir Chifji
+4. Member: Jikhangir Chifji
  * Role:
 
-5. Member5: Betul
+5. Member: Betul
  * Role:
