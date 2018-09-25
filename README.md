@@ -24,7 +24,7 @@ Team Name: Slytherin House
 Team Leader: Everyone
 
 Member1: Suhrab Kurbanov
-Role: Initial Template of the website., Develop Reverse-Complement, Complement, Reverse algorithms and apply within the initial webpage.
+\nRole: Initial Template of the website., Develop Reverse-Complement, Complement, Reverse algorithms and apply within the initial webpage.
 
 Member2: Serigne Ousmane Kana Ciss
 Role:
