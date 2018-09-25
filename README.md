@@ -1,5 +1,6 @@
 # Genome_Sequence_Reverter
 Software Engineering Team Project
+To see the most up to date stage of the website please [click here](https://suhrabjan.github.io/Genome_Seq_Reverter/).
 
 ### Project Details
 A web software project, which will be developed with following capabilities:
