@@ -30,7 +30,7 @@ A web software project, which will be developed with following capabilities:
  * Role:
 
 3. Member: Rumeysa Celik
- * Role:
+ * Role: DNA to RNA convertion by reverse algorithms and sign in page as user/admin.
 
 4. Member: Jikhangir Chifji
  * Role:
