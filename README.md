@@ -27,16 +27,16 @@ A web software project, which will be developed with following capabilities:
  * Role: Initial Template of the website., Develop Reverse-Complement, Complement, Reverse algorithms and apply within the initial webpage.
 
 2. Member: Serigne Ousmane Kana Ciss
- * Role:
+ * Role: Design primers (short complementary sequence of DNA).
 
 3. Member: Rumeysa Celik
  * Role: DNA to RNA convertion by reverse algorithms and sign in page as user/admin.
 
 4. Member: Jikhangir Chifji
- * Role:
+ * Role: RNA to Protein translation.
 
 5. Member: Betul
- * Role:
+ * Role: Nucleotide statistics such as: GC content, Restriction sites, CpG Islands.
 
 
 ### Progress and Updates by Team Members
