@@ -36,7 +36,10 @@ A web software project, which will be developed with following capabilities:
  * Role: RNA to Protein translation.
 
 5. Member: Betul
- * Role: Nucleotide statistics such as: GC content, Restriction sites, CpG Islands.
+ * Role: Nucleotide statistics such as: GC content and else.
+
+6. Member Annamyrat Gundogdyyev
+* Role:  Find restriction sites and appropriate enzymes.
 
 
 ### Progress and Updates by Team Members
