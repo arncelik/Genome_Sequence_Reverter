@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Complement</title>
+    <link rel="stylesheet" href="reverseComplement.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+    <canvas id="bgd-anime"></canvas>
+    <div class="site-container">
+        <header class="site-header">
+            <hr>
+            <div class="about">
+                <ul class="about-social">
+                    <li><a href="#"><i class="fas fa-home"></a></i></li>
+                    <li class="verticalline"><a href="#">About</a></li>
+                    <li class="verticalline"><a href="#">Blog</a></li>
+                    <li class="verticalline"><a href="#">Sign In</a></li>
+                    <div class="verticalline social-links">
+                        <ul>
+                            <li class="social-link-li"><a href="https://github.com/arncelik/Genome_Sequence_Reverter" target="_blank" class="fab fa-github"></a></li>
+                            <li class="social-link-li"><a href="#" target="_blank" class="fab fa-linkedin"></a></li>
+                            <li class="social-link-li"><a href="#" target="_blank" class="fab fa-twitter"></a></li>
+                            <li class="social-link-li"><a href="" target="_blank" class="fab fa-facebook-square"></a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a class="funcs" href="#">Reverse Complement</a></li>
+                    <li><a class="funcs" href="#">DNA to RNA</a></li>
+                    <li><a class="funcs" href="#">RNA to Protein</a></li>
+                    <li><a class="funcs" href="#">Nuclotide Stats</a></li>
+                    <li><a class="funcs" href="#">Primer Design</a></li>
+                </ul>
+            </nav>
+            <h1>Reverse Complement</h1>
+        </header>
+        <main>
+            <div class="description">
+                <p>Reverse Complement converts a DNA sequence into its reverse, complement, or reverse-complement counterpart. You may want to work with the reverse-complement of a sequence if it contains an ORF on the reverse strand.</p>
+                <br>
+            </div>
+            <div id="input-box">
+                <form id="seq-input" action="" method="get">
+                    <span>Paste the raw or FASTA sequence into the text area below.</span>
+                    <select name="function">
+                        <option value="reverse-complement">Reverse Complement</option>
+                        <option value="reverse">Reverse</option>
+                        <option value="complement">Complement</option>
+                    </select>
+                    <textarea name="sequence" placeholder="Enter your sequence here" cols="130" rows="20"></textarea>
+                    <button type="submit" name="submit">Submit</button>
+                    <button type="reset" name="Reset">Clear</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="background.js"></script>
+    <script src="reverse_complement_algorithm.js"></script>
+</body>
+</html>

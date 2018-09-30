@@ -1,0 +1,273 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.625;
+    background: #ebebeb;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #428bca;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-family: Varela Round;
+}
+
+p, span {
+    font-size: 18px;
+    font-family: Varela Round;
+    color: #3d454c;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+
+.site-container {
+    width: 100%;
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    /*padding-top: 40px;*/
+    width: 100%;
+}
+
+.about {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about-social {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.verticalline {
+    border-left: 1px solid silver;
+}
+
+.about-social li {
+    width: 12.5%;
+    text-align: center;
+}
+
+.about-social li {
+    width: 12.5%;
+    text-align: center;
+}
+
+.social-links {
+    width: 50%;
+}
+
+.social-links ul{
+    padding: 0;
+    float: right;
+}
+
+.social-link-li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    /*margin-left: 20px;*/
+}
+
+.social-link-li a {
+    font-size: 35px;
+    /*padding-right: 10px;*/
+}
+
+.fa-github {
+    color: #666;
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+.fa-linkedin {
+    color: #286a8d;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-twitter {
+    color: #7fa6c4;
+}
+
+.fa-twitter:hover {
+    color: #00c3f3;
+}
+
+.fa-facebook-square {
+    color: #2d609b;
+}
+
+.fa-facebook-square:hover {
+    color: #2d109b;
+}
+
+hr {
+    background: #72818e;
+    height: 10px;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+nav {
+    background: #72818e;
+    min-height: 50px;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+#menu ul li {
+    width: 20%;
+}
+
+.funcs {
+    font-size: 18px;
+    font-family: Varela Round;
+    color: white;
+    font-variant: small-caps;
+}
+
+h1 {
+    /*font-size: 40px;*/
+    width: 85%;
+    color: #3d454c;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+/*    font-family: Varela Round;
+    color: #3d454c;*/
+}
+
+.description {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.description p{
+    font-size: 18px;
+}
+
+#input-box {
+    width: 82%;
+    margin: 0 auto;
+}
+
+select {
+    /*margin-left: 190px;*/
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+}
+
+select:hover {
+    background: lightgrey;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: lightgrey;
+}
+
+
+@media screen and (max-width: 901px) {
+    a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .about-social {
+        margin: 0;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .about-social li a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .social-links {
+        border-left: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .social-links ul {
+        float: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-social li a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
