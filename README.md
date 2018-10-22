@@ -53,3 +53,7 @@ P.S. The files are in the reverse-complement branch. For each role and functiona
 ##### Comment from Jikhangir
 
 I designed algorithm to convert rna to protein in Python.
+
+##### Comment from Annamurat
+
+Working on restriction site finder...
