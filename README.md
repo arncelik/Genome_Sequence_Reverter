@@ -59,4 +59,4 @@ I designed algorithm to convert rna to protein in Python.
 Working on restriction site finder...
 
 ##### Comment from Rumeysa 
-Almost done with the DNA to RNA and working on sign up page as user and admin.
+Almost done with DNA to RNA conversion using reverse algroithm, and working on sign up page as user and admin.
