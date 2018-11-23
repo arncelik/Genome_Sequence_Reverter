@@ -60,3 +60,6 @@ Working on restriction site finder...
 
 ##### Comment from Rumeysa 
 Almost done with DNA to RNA conversion using reverse algroithm, and working on sign up page as user and admin.
+
+#### Comment from Rumeysa
+DNA to RNA conversion is done, needs to modify the code.
