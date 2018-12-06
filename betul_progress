@@ -5,6 +5,11 @@ function dnaStats (theDocument) {
  if (testScript() == false) {
   return false;
  }
+ function getSequenceFromFasta(fasta) {
+
+	if (!fasta) { // check there is something first of all
+		return false;
+	}
  if ((checkFormElement (theDocument.forms[0].elements[0]) == false) || (checkSequenceLength(theDocument.forms[0].elements[0].value, maxInput) == false)) {
   return false;
  }
